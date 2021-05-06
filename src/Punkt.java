@@ -1,4 +1,4 @@
-package defaut_package;
+
 import java.lang.Math;
 
 public class Punkt {
@@ -6,6 +6,10 @@ public class Punkt {
 	private int y;
 	public Punkt (){
 		
+	}
+	public Punkt(int x, int y) {
+		this.x = x;
+		this.y = y;
 	}
 	public int getX(){
 		return x;
